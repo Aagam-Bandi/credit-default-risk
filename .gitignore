@@ -1,0 +1,31 @@
+# Environment — never commit real keys
+.env
+.env.local
+*.pem
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector stores / caches
+chroma_db/
+.chroma/
+*.sqlite3
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+results.json
